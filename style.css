@@ -25,6 +25,7 @@
 
 .nav-top{
     background-color: #edf7f7;
+    border-bottom: 1px solid lightslategray;
     padding: 20px;
 }
 
@@ -44,17 +45,6 @@
     padding-left: 2%;
 }
 
-#search{
-    display: inline-block;
-    background-color: #162659;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    vertical-align: middle;
-    background-image: url(img/homepage_community_globe.svg);
-    background-position: center;
-    background-size: 100%;
-}
 
 .button-container button{
     border: none;
@@ -80,4 +70,28 @@
     right: 0%;
     color: white;
     background-color: coral;
+}
+
+.nav-bot{
+    padding: 20px;
+}
+
+.logo{
+    width: 15%;
+    height: 50px;
+    background-image: url(img/logo.svg);
+    background-repeat: no-repeat;
+}
+
+ul{
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    color:  #162659;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 20px;
 }
