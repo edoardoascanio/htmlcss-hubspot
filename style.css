@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.central-container{
+    width: 70%;
+    margin: auto;
+}
+
+#globe{
+    display: inline-block;
+    background-color: #162659;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    background-image: url(img/homepage_community_globe.svg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.nav-top{
+    background-color: #edf7f7;
+    padding: 20px;
+}
+
+.nav-top select{
+    color:  #162659;
+    border: none;
+    background-color: transparent;
+}
+
+.nav-top a{
+    color:  #162659;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    border-left: 1px solid;
+    margin-left: 1%;
+    padding-left: 2%;
+}
+
+
