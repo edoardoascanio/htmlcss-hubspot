@@ -162,6 +162,9 @@ li a{
     padding-top: 50px;
     width: 100%;
     background-color:  #edf7f7 ;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .integration{
@@ -179,16 +182,113 @@ li a{
     background-repeat: no-repeat;
 }
 
-.main-top h1{
+.integration h1{
     color:#162659;
     font-size: 30px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.main-top p{
+.integration p{
     color:#162659;
     font-size: 14px;
     line-height: 25px;
     text-align: center;
 }
+
+.free-hub{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+#crm{
+    width: 15%;
+    height: 100px;
+    margin:5% 10% 2% 10%;
+    background-image: url(img/CRM-Illustration.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#button-one{
+    padding: 15px 30px 15px 30px;
+    margin-left: 12%;
+}
+     
+.free-text{
+    position: absolute;
+    right: 5%;
+    bottom: 15%;
+    line-height: 35px;
+    color:#162659;
+    width: 60%;
+}
+
+#hr-one{
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    width: 60%;
+}
+
+.free-hub ul{
+   position: absolute;
+   right: 35%;
+   color:#162659;
+   font-size: 14px;
+}
+
+.check {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    vertical-align: top;
+    line-height: 10px;
+    width: 15px; 
+    height: 15px;
+    padding: 3px;
+    background: coral;
+    border-radius: 50%;
+    font-size: 10px;
+  }
+
+.hub{
+    float: left;
+    width: 30%;
+    height: 600px;
+    margin-top: 5%;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.sales{
+    margin: 5%;
+}
+
+.main-img{
+    margin: auto;
+    width: 40%;
+    height: 150px;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.marketing .main-img{
+    background-image: url(img/Marketing-Hub-Free.svg);
+}
+
+.sales .main-img{
+    background-image: url(img/Sales-Professional-Illustration.svg);
+}
+
+.service .main-img{
+    background-image: url(img/Service-Hub-Illustration.svg);
+}
+
+
