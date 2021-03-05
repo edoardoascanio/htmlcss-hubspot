@@ -313,3 +313,9 @@ li a{
 .col {
     margin:10px 0 0 55px;
 }
+
+.main-mid{
+    width: 100%;
+    height: 600px;
+    background-color: #35b0ac ;
+}
