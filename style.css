@@ -524,7 +524,7 @@ footer{
     float: left;
     width: calc(100% / 4 - 5%);
     height: 50px;
-    margin:5% 5% 5% 0;
+    margin:5% 5% 12% 0;
     height: 200px;
 }
 
@@ -549,13 +549,13 @@ footer{
     color: #3c4c5c;
     position: absolute;
     right: 5%;
-    bottom: 1%;
+    bottom: 25%;
 }
 
 .icon{
     position: absolute;
     right: 5%;
-    top: 100%;
+    top: 75%;
     width: 20%;
 }
 
@@ -591,4 +591,44 @@ footer{
 #in{
     background-size: 65%;
     background-image: url(img/in.png);
+}
+
+.logo-grey{
+    position: absolute;
+    top: 110%;
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    background-image: url(img/HSLogo_gray.svg);
+    background-repeat: no-repeat;
+}
+
+.lang-list li a{
+    font-size: 14px;
+    color: white;
+}
+
+.logo-grey p{
+    position: absolute;
+    top:80%;
+    font-size: 12px;
+    color: white;
+}
+
+#stuff,#policy{
+    display: inline-block;
+    color: white; 
+    font-size: 12px;   
+}
+
+#stuff {
+    position: absolute;
+    right: 10%;
+    top:120%;
+}
+
+#policy {
+    position: absolute;
+    right: 0%;
+    top:120%;
 }
