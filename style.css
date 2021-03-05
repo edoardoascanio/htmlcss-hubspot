@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    color:#162659;
 }
 
 .central-container{
@@ -30,13 +31,11 @@
 }
 
 .nav-top select{
-    color:  #162659;
     border: none;
     background-color: transparent;
 }
 
 .nav-top a{
-    color:  #162659;
     font-size: 14px;
     text-decoration: none;
     display: inline-block;
@@ -97,7 +96,7 @@
     background-repeat: no-repeat;
 }
 
-ul{
+.nav-bot ul{
     position: absolute;
     bottom: 5%;
     right: 0%;
@@ -112,7 +111,6 @@ li a{
     font-size: 14px;
     text-decoration: none;
     list-style: none;
-    color:  #162659;
 }
 
 #jumbotron{
@@ -142,7 +140,7 @@ li a{
     margin-bottom: 20px;
 }
 
-.red-button{
+.red-button, .button-main{
     border: none;
     padding: 15px;
     border-radius: 5px;
@@ -182,14 +180,14 @@ li a{
     background-repeat: no-repeat;
 }
 
-.integration h1{
+.integration h1, .hub h1{
     color:#162659;
     font-size: 30px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.integration p{
+.integration p, .hub p{
     color:#162659;
     font-size: 14px;
     line-height: 25px;
@@ -214,9 +212,9 @@ li a{
     background-repeat: no-repeat;
 }
 
-#button-one{
-    padding: 15px 30px 15px 30px;
-    margin-left: 12%;
+.button-main{
+    padding: 15px 35px 15px 35px;
+    margin-left: 11%;   
 }
      
 .free-text{
@@ -224,7 +222,6 @@ li a{
     right: 5%;
     bottom: 15%;
     line-height: 35px;
-    color:#162659;
     width: 60%;
 }
 
@@ -237,8 +234,8 @@ li a{
 
 .free-hub ul{
    position: absolute;
-   right: 35%;
-   color:#162659;
+   right: 34%;
+   bottom: 5%;
    font-size: 14px;
 }
 
@@ -251,6 +248,7 @@ li a{
     width: 15px; 
     height: 15px;
     padding: 3px;
+    margin-right: 5px;
     background: coral;
     border-radius: 50%;
     font-size: 10px;
@@ -261,6 +259,7 @@ li a{
     width: 30%;
     height: 600px;
     margin-top: 5%;
+    padding: 0 3% 0 3%;
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 5px;
@@ -284,11 +283,33 @@ li a{
 }
 
 .sales .main-img{
+    background-size: 100%;
     background-image: url(img/Sales-Professional-Illustration.svg);
 }
 
 .service .main-img{
     background-image: url(img/Service-Hub-Illustration.svg);
 }
+.hub h1{
+    font-size: 22px;
+}
 
+.hub hr{
+    margin-top: 50px ;
+}
 
+.hub h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.hub ul li{
+    display: block;
+    font-size: 14px;
+    margin-left: 0;
+}
+
+.col{
+    margin:5% 0% 0 22%;
+}
