@@ -317,7 +317,8 @@ li a{
 .main-mid{
     width: 100%;
     height: 600px;
-    padding-top: 30px;
+    padding-top: 40px;
+    margin-bottom: 10px;
     background-color: #35b0ac ;
 }
 
@@ -431,16 +432,15 @@ li a{
     position: absolute;
     top: 15%;
     right: 0%;
-    display: inline-block;
     height: 150px;
     width: 60%;
 }
 
 .log-top,.log-bot{
     float: left;
-    width: calc(100% / 4 - 3%);
+    width: calc(100% / 4 - 4%);
     height: 50px;
-    margin:0 3% 1% 0;
+    margin:0 4% 1% 0;
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -476,4 +476,37 @@ li a{
 
 .log-bot.four{
     background-image: url(img/VMware_logo_gry_RGB_300dpi@2x.webp);
+}
+
+.start-grow{
+    width: 40%;
+    height: 200px;
+}
+
+.start-grow h1{
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+.start-grow p{
+    font-size: 14px;
+    margin-top: 5%;
+    line-height: 25px;
+}
+
+#start-bot{
+    margin: 10% 2% 2% 0%;
+}
+
+.woman{
+    position: absolute;
+    top: 3%;
+    right: 0%;
+    width: 40%;
+    height: 300px;
+    margin-bottom: 10%;
+    background-image: url(img/woman.webp);
+    background-size: 60%;
+    background-position: top right;
+    background-repeat: no-repeat;
 }
