@@ -513,7 +513,7 @@ footer{
     width: 100%;
     margin-top: 10%;
     background-color: #3c4c5c;
-    position: relative;
+    height: 600px;
 }
 
 .footer-top{
@@ -528,8 +528,8 @@ footer{
     height: 200px;
 }
 
-.list h3{
-    font-size: 20px;
+.list h1{
+    font-size: 16px;
     color: white;
     margin-bottom: 20px;
 }
@@ -543,19 +543,19 @@ footer{
 #footer-button{
     border: none;
     width: 20%;
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
     background-color: lightgray;
     color: #3c4c5c;
     position: absolute;
     right: 5%;
-    bottom: 10%;
+    bottom: 1%;
 }
 
 .icon{
     position: absolute;
     right: 5%;
-    top: 90%;
+    top: 100%;
     width: 20%;
 }
 
