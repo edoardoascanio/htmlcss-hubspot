@@ -351,14 +351,44 @@ li a{
     border-right: 1px solid white;
 }
 
-.col-img{
+.top-img,.bot-img{
     width: 50%;
     margin: auto;
     height: 50px;
-    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: yellow;
+}
+
+.one .top-img{
+    background-image: url(img/homepage_community_agency.svg);
+}
+
+.two .top-img{
+    background-image: url(img/homepage_community_blog.svg);
+}
+
+.three .top-img{
+    background-image: url(img/homepage_community_academy.svg);
+}
+
+.four .top-img{
+    background-image: url(img/homepage_community_inbound.svg);
+}
+
+.one .bot-img{
+    background-image: url(img/homepage_community_connect.svg);
+} 
+
+.two .bot-img{
+    background-image: url(img/homepage_community_globe.svg);
+}
+
+.three .bot-img{
+    background-image: url(img/homepage_community_followers.svg);
+}
+
+.four .bot-img{
+    background-image: url(img/growthhub-white-small-1.svg);
 }
 
 .row-top h3,.row-bot h3{
