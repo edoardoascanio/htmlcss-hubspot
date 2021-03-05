@@ -414,7 +414,6 @@ li a{
     margin: auto;
     width: 60%;
     padding-top: 2%;
-    height: 200px;
     position: relative;
 }
 
@@ -485,7 +484,7 @@ li a{
 
 .start-grow h1{
     font-size: 30px;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 .start-grow p{
