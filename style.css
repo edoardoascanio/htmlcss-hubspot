@@ -318,7 +318,8 @@ li a{
     height: 600px;
     padding-top: 40px;
     margin-bottom: 20px;
-    background-color: #35b0ac ;
+    background: rgb(39,119,177);
+    background: linear-gradient(40deg, rgba(39,119,177,1) 0%, rgba(53,176,172,1) 42%, rgba(68,242,236,1) 100%);
 }
 
 .mid-text{
