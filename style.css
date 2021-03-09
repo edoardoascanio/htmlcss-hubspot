@@ -197,7 +197,7 @@ li a{
 
 .free-hub{
     margin-top: 50px;
-    padding-top: 350px;
+    padding-top: 300px;
     width: 100%;
     background-color: white;
     border: 1px solid lightgrey;
@@ -206,7 +206,7 @@ li a{
 
 #crm{
     position: absolute;
-    top:60%;
+    top:62%;
     left: 10%;
     width: 15%;
     height: 100px;
@@ -229,7 +229,7 @@ li a{
     position: absolute;
     right: 5%;
     bottom: 15%;
-    line-height: 45px;
+    line-height: 40px;
     width: 60%;
 }
 
@@ -319,7 +319,7 @@ li a{
 }
 
 .bot {
-    margin:40px 0 10px 55px;
+    margin:40px 0 15px 55px;
 }
 
 .main-mid{
