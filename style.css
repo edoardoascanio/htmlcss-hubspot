@@ -27,7 +27,7 @@
 .nav-top{
     background-color: #edf7f7;
     border-bottom: 1px solid lightslategray;
-    padding: 20px;
+    padding:20px 0 20px 0;
 }
 
 .nav-top select{
@@ -38,14 +38,12 @@
 .nav-top a{
     font-size: 14px;
     text-decoration: none;
-    display: inline-block;
     border-left: 1px solid;
     margin-left: 1%;
     padding-left: 2%;
 }
 
 #search{
-    display: inline-block;
     width: 20px;
     height: 20px;
     background-image: url(img/search.png);
@@ -59,7 +57,6 @@
 
 .button-container button{
     border: none;
-    height: 20px;
     padding: 15px;
     line-height: 1px;
     border-radius: 5px;
@@ -84,7 +81,8 @@
 }
 
 .nav-bot{
-    padding: 10px;
+    width: 100%;
+    padding-top:10px;
 }
 
 .logo{
@@ -97,13 +95,13 @@
 
 .nav-bot ul{
     position: absolute;
-    bottom: 5%;
-    right: 0%;
+    bottom: 40%;
+    right: 0;
 }
 
 ul li {
     display: inline-block;
-    margin: 20px;
+    margin-left: 40px;
 }
 
 li a{
@@ -114,16 +112,20 @@ li a{
 
 #jumbotron{
     width: 100%;
-    height: 550px;
     background-image: url(img/jumbotron.png);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: 100%;
-    padding-top: 60px;
+    padding: 60px 0 100px 0;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .jumbo-text{
     width: 40%;
     color: #162659;
+    margin-bottom: 100px ;
 }
 
 .jumbo-text h1{
