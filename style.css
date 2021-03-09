@@ -197,7 +197,7 @@ li a{
 
 .free-hub{
     margin-top: 50px;
-    padding-top: 50px;
+    padding-top: 150px;
     width: 100%;
     background-color: white;
     border: 1px solid lightgrey;
@@ -207,15 +207,15 @@ li a{
 #crm{
     width: 15%;
     height: 100px;
-    margin:5% 10% 2% 10%;
+    margin-left: 50px;
     background-image: url(img/CRM-Illustration.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .button-main{
-    padding: 15px 35px 15px 35px;
-    margin-left: 11%;   
+    padding: 15px 35px;
+    margin: 0 0px 20px 0;
 }
      
 .free-text{
@@ -235,8 +235,8 @@ li a{
 
 .free-hub ul{
    position: absolute;
-   right: 34%;
-   bottom: 5%;
+   right: 35%;
+   bottom: 10%;
    font-size: 14px;
 }
 
@@ -258,9 +258,8 @@ li a{
 .hub{
     float: left;
     width: 30%;
-    height: 600px;
     margin-top: 5%;
-    padding: 0 3% 0 3%;
+    padding: 0 3%;
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 5px;
@@ -301,18 +300,19 @@ li a{
 
 .hub h3{
     text-align: center;
-    margin-top: 30px;
+    margin:30px 0 30px 0;
     font-size: 15px;
 }
 
 .hub ul li{
     display: block;
     font-size: 14px;
+    line-height: 20px;
     margin-left: 0;
 }
 
 .bot {
-    margin:10px 0 0 55px;
+    margin:40px 0 10px 55px;
 }
 
 .main-mid{
@@ -513,20 +513,17 @@ li a{
 footer{
     width: 100%;
     margin-top: 2%;
+    padding-bottom: 2%;
     background-color: #3c4c5c;
-    height: 550px;
-}
-
-.footer-top{
-    width: 100%;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .list{
     float: left;
     width: calc(100% / 4 - 5%);
-    height: 50px;
-    margin:3% 5% 20% 0;
-    height: 200px;
+    margin:3% 5% 2% 0;
 }
 
 .list h1{
@@ -545,25 +542,21 @@ footer{
     border: none;
     width: 20%;
     padding: 10px;
+    margin-left: 75%;
     border-radius: 5px;
     background-color: lightgray;
     color: #3c4c5c;
-    position: absolute;
-    right: 5%;
-    bottom: 30%;
 }
 
 .icon{
-    position: absolute;
-    right: 5%;
-    top: 70%;
     width: 20%;
+    margin-left: 75%;
 }
 
 .icon div{
     float: left;
     width: calc(100% / 5 - 2%);
-    margin:5% 2% 2% 0;
+    margin:5% 2% 40% 0;
     height: 30px;
     background-size: 50%;
     background-position: center;
@@ -602,37 +595,26 @@ footer{
     color: white;
 }
 
+#foot-hr{
+    margin: 20px 0 20px 0;
+}
+
 .logo-grey{
-    position: absolute;
-    top: 105%;
     width: 15%;
-    height: 50px;
-    margin-top: 10px;
+    height: 40px;
     background-image: url(img/HSLogo_gray.svg);
     background-repeat: no-repeat;
 }
 
-.logo-grey p{
-    position: absolute;
-    top:70%;
+.footer-bot p{
     font-size: 12px;
     color: white;
 }
 
 #stuff,#policy{
-    display: inline-block;
+    float: right;
     color: white; 
-    font-size: 12px;   
+    font-size: 12px; 
+    margin-left: 20px;  
 }
 
-#stuff {
-    position: absolute;
-    right: 10%;
-    top:110%;
-}
-
-#policy {
-    position: absolute;
-    right: 0%;
-    top:110%;
-}
