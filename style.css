@@ -197,8 +197,8 @@ li a{
 
 .free-hub{
     margin-top: 50px;
+    padding-top: 50px;
     width: 100%;
-    height: 300px;
     background-color: white;
     border: 1px solid lightgrey;
     border-radius: 5px;
@@ -481,7 +481,6 @@ li a{
 
 .start-grow{
     width: 40%;
-    height: 200px;
 }
 
 .start-grow h1{
@@ -505,7 +504,6 @@ li a{
     right: 0%;
     width: 40%;
     height: 300px;
-    margin-bottom: 10%;
     background-image: url(img/woman.webp);
     background-size: 60%;
     background-position: top right;
@@ -514,7 +512,7 @@ li a{
 
 footer{
     width: 100%;
-    margin-top: 10%;
+    margin-top: 2%;
     background-color: #3c4c5c;
     height: 550px;
 }
@@ -527,7 +525,7 @@ footer{
     float: left;
     width: calc(100% / 4 - 5%);
     height: 50px;
-    margin:3% 5% 15% 0;
+    margin:3% 5% 20% 0;
     height: 200px;
 }
 
