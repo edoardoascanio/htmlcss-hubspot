@@ -561,7 +561,7 @@ footer{
 .icon div{
     float: left;
     width: calc(100% / 5 - 2%);
-    margin:5% 2% 40% 0;
+    margin:5% 2% 30% 0;
     height: 30px;
     background-size: 50%;
     background-position: center;
