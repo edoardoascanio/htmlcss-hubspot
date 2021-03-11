@@ -200,21 +200,17 @@ li a{
     border-radius: 5px;
 }
 
-#crm{
+#crm img{
+    width: 12%;
     position: absolute;
-    top:62%;
+    top: 60%;
     left: 10%;
-    width: 15%;
-    height: 100px;
-    background-image: url(img/CRM-Illustration.svg);
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 #b1{
     position: absolute;
     top:80%;
-    left:11%;
+    left:10%;
 }
 
 .button-main{
@@ -275,24 +271,8 @@ li a{
 .main-img{
     margin: auto;
     width: 40%;
-    height: 150px;
-    background-position: center;
-    background-size: 90%;
-    background-repeat: no-repeat;
 }
 
-.marketing .main-img{
-    background-image: url(img/Marketing-Hub-Free.svg);
-}
-
-.sales .main-img{
-    background-size: 100%;
-    background-image: url(img/Sales-Professional-Illustration.svg);
-}
-
-.service .main-img{
-    background-image: url(img/Service-Hub-Illustration.svg);
-}
 .hub h1{
     font-size: 22px;
 }
