@@ -172,14 +172,9 @@ li a{
     width: 70%;
 }
 
-.cube{
-    margin: auto;
+.cube img{
     width: 30%;
-    height: 200px;
-    background-image: url(img/Integrations_Illustration@2x.webp);
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    margin-left: 35%;
 }
 
 .integration h1, .hub h1{
