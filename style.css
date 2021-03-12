@@ -258,7 +258,7 @@ li a{
     float: left;
     width: 30%;
     margin-top: 5%;
-    padding: 0 3%;
+    padding: 2% 3%;
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 5px;
@@ -268,9 +268,19 @@ li a{
     margin: 5%;
 }
 
+.sales .main-img{
+    width: 35%;
+    margin-bottom: 2%;
+}
+
+.service .main-img{
+    width: 25%;
+    margin-bottom: 2%;
+}
+
 .main-img{
-    margin: auto;
-    width: 40%;
+    margin: auto;  
+    width: 30%; 
 }
 
 .hub h1{
